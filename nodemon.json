@@ -1,0 +1,6 @@
+{
+  "watch": ["app", "components", "lib", "next.config.mjs", "tailwind.config.js", "postcss.config.mjs"],
+  "ext": "js,mjs,css,json",
+  "ignore": [".next", "node_modules", "package-lock.json"],
+  "exec": "next dev"
+}
