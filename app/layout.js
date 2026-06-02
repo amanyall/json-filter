@@ -2,7 +2,12 @@ import "./globals.css";
 
 export const metadata = {
   title: "JSON-Filter & Discovery Hub",
-  description: "Discover, select, and filter fields from large JSON payloads."
+  description: "Discover, select, and filter fields from large JSON payloads.",
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png"
+  }
 };
 
 export default function RootLayout({ children }) {
