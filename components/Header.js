@@ -13,6 +13,7 @@ export function Header({ discoveredCount, activeCount }) {
         <div className="flex flex-wrap gap-2 text-xs text-stone-400">
           <span>{discoveredCount} discovered paths</span>
           <span>{activeCount} active selections</span>
+          <span>Made by Aman Pandey</span>
         </div>
       </div>
     </header>

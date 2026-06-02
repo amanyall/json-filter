@@ -6,7 +6,8 @@
     "dev": "nodemon",
     "dev:next": "next dev -p 10200",
     "build": "next build",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "start": "next start -H 0.0.0.0 -p 3000"
   },
   "dependencies": {
     "fuse.js": "^7.1.0",
